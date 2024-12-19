@@ -1,0 +1,38 @@
+* {
+  margin: 0px;
+}
+
+body {
+  font-family: "Times New Roman", Times, serif;
+  font-size: 20px;
+}
+
+#root {
+  padding: 20px;
+}
+
+#dialog {
+  background-color: rgb(247, 247, 247);
+  border-left: 20px solid lightgray;
+  margin: 50px 50px 50px 150px;
+  padding: 20px;
+  max-width: 800px;
+}
+
+.note {
+  border: 1px solid;
+  padding: 5px;
+  max-width: fit-content;
+}
+
+#above,
+#below,
+#right {
+  position: absolute;
+}
+
+@media (max-width: 500px) {
+  #dialog {
+    margin: 50px 50px 50px 50px;
+  }
+}
